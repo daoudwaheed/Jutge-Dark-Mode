@@ -1,0 +1,22 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Jutge.org Dark Mode",
+  "version": "1.0.0",
+  "description": "Injects a custom dark mode stylesheet into jutge.org.",
+  "host_permissions": [
+    "*://*.jutge.org/*",
+    "*://jutge.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.jutge.org/*",
+        "*://jutge.org/*"
+      ],
+      "css": [
+        "dark.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
