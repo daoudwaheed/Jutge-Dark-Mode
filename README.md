@@ -1,6 +1,6 @@
 # 🌙 Jutge Dark Mode
 
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.1-blue.svg)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-brightgreen.svg)
 ![Status](https://img.shields.io/badge/status-Web_Store_Pending-orange.svg)
 
@@ -38,17 +38,18 @@ Jutge.org is an excellent resource for university students practicing algorithmi
 
 ```text
 Jutge-Dark-Mode/
+├── 📄 .gitignore      # Ignored files for version control
+├── 📄 LICENSE         # Open-source license terms
+├── 📄 README.md       # Project documentation
 ├── 📄 manifest.json   # Extension metadata and permissions
 ├── 📄 popup.html      # UI structure of the extension popup
-├── 📄 README.md       # Project documentation
-├── 📄 LICENSE         # Open-source license terms
-├── 📄 .gitignore      # Ignored files for version control
 ├── 📂 css/            
 │   └── 🎨 dark.css    # Core dark theme injection styles
 ├── 📂 docs/           # Additional documentation and media resources
 ├── 📂 icons/          # Extension icons for Chrome UI
 │   ├── 🖼️ icon16.png
-│   └── 🖼️ icons-64.png
+│   ├── 🖼️ icon48.png
+│   └── 🖼️ icon128.png
 └── 📂 js/             
     ├── 📜 content.js  # Injected script that applies the theme overrides
     └── 📜 popup.js    # Interactive logic for the extension popup
