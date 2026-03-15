@@ -3,21 +3,38 @@
   "name": "Jutge Dark Mode",
   "version": "1.1",
   "description": "Turns jutge.org into a sight for sore eyes.",
-  "permissions": ["storage", "tabs"],
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
   "action": {
     "default_popup": "popup.html"
   },
   "content_scripts": [
     {
-      "matches": ["*://*.jutge.org/*", "*://jutge.org/*"],
-      "js": ["js/content.js"] 
+      "matches": [
+        "*://*.jutge.org/*",
+        "*://jutge.org/*"
+      ],
+      "js": [
+        "js/content.js"
+      ]
     }
   ],
-  "web_accessible_resources": [{
-    "resources": ["css/dark.css"], 
-    "matches": ["*://*.jutge.org/*", "*://jutge.org/*"]
-  }],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "css/dark.css"
+      ],
+      "matches": [
+        "*://*.jutge.org/*",
+        "*://jutge.org/*"
+      ]
+    }
+  ],
   "icons": {
-    "16": "icons/icon16.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   }
 }
