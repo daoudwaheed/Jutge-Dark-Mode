@@ -22,14 +22,13 @@ Jutge.org is an excellent resource for university students practicing algorithmi
 
 | Before (Light Mode) | After (Dark Mode) |
 | :---: | :---: |
-| ![Light Mode](docs/jutge_dashboard_before.png) | ![Dark Mode](docs/jutge_dashboard_before.png) |
-| :---: | :---: |
-| ![Light Mode](docs/jutge_dashboard_before.png) | ![Dark Mode](docs/jutge_dashboard_after.png) |
-| :---: | :---: |
+| ![Problem Light Mode](docs/jutge_problem_before.png) | ![Problem Dark Mode](docs/jutge_problem_after.png) |
+| ![Dashboard Light Mode](docs/jutge_dashboard_before.png) | ![Dashboard Dark Mode](docs/jutge_dashboard_after.png) |
 | ![Login Light Mode](docs/jutge_login_before.png) | ![Login Dark Mode](docs/jutge_login_after.png) |
 
 *GIF showing the extension toggling on and navigating through a problem page:*
-![App Demo](docs\demo.gif)
+
+![App Demo](docs/demo.gif)
 
 ## 🛠️ Technologies Used
 * **Chrome Extension API:** Manifest V3
