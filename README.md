@@ -18,6 +18,19 @@ Jutge.org is an excellent resource for university students practicing algorithmi
 * **Elegant UI:** Features a beautifully designed pop-up menu that provides users with a simple toggle switch to turn dark mode on or off instantly.
 * **Lightweight:** Pure CSS injection with zero background scripts draining your browser's memory.
 
+## 📸 Screenshots
+
+| Before (Light Mode) | After (Dark Mode) |
+| :---: | :---: |
+| ![Light Mode](docs/jutge_dashboard_before.png) | ![Dark Mode](docs/jutge_dashboard_before.png) |
+| :---: | :---: |
+| ![Light Mode](docs/jutge_dashboard_before.png) | ![Dark Mode](docs/jutge_dashboard_after.png) |
+| :---: | :---: |
+| ![Login Light Mode](docs/jutge_login_before.png) | ![Login Dark Mode](docs/jutge_login_after.png) |
+
+*GIF showing the extension toggling on and navigating through a problem page:*
+![App Demo](docs\demo.gif)
+
 ## 🛠️ Technologies Used
 * **Chrome Extension API:** Manifest V3
 * **Frontend:** CSS3 (Custom styling and overrides), HTML5
