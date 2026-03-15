@@ -1,22 +1,23 @@
 ﻿{
   "manifest_version": 3,
-  "name": "Jutge.org Dark Mode",
-  "version": "1.0.0",
-  "description": "Injects a custom dark mode stylesheet into jutge.org.",
-  "host_permissions": [
-    "*://*.jutge.org/*",
-    "*://jutge.org/*"
-  ],
+  "name": "Jutge Dark Mode",
+  "version": "1.1",
+  "description": "Turns jutge.org into a sight for sore eyes.",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
-      "matches": [
-        "*://*.jutge.org/*",
-        "*://jutge.org/*"
-      ],
-      "css": [
-        "dark.css"
-      ],
-      "run_at": "document_start"
+      "matches": ["*://*.jutge.org/*", "*://jutge.org/*"],
+      "js": ["js/content.js"] 
     }
-  ]
+  ],
+  "web_accessible_resources": [{
+    "resources": ["css/dark.css"], 
+    "matches": ["*://*.jutge.org/*", "*://jutge.org/*"]
+  }],
+  "icons": {
+    "16": "icons/icon16.png"
+  }
 }
